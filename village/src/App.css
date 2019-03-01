@@ -1,3 +1,84 @@
 .App {
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 900px;
+	margin: 0 auto;
+	background-color: whitesmoke;
+	font-family: 'Pacifico', cursive;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	border: 2px solid #88ccff;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.navbar a {
+	text-decoration: none;
+	font-size: 3.6rem;
+	color: #88ccff;
+}
+
+.Smurfs ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.Smurfs h1 {
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+.Smurf {
+	border: 4px solid #88ccff;
+	border-radius: 5px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Smurf h3 {
+	font-size: 2rem;
+}
+
+.Smurf p {
+	font-size: 1.2rem;
+}
+
+.Smurf-buttons {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Smurf-buttons button {
+	border: 2px solid #88ccff;
+	border-radius: 10px;
+	padding: 10px 20px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.SmurfForm form {
+	margin: 20px auto;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.SmurfForm input {
+	margin: 10px;
+}
+
+.SmurfForm button {
+	border: 2px solid #88ccff;
+	border-radius: 10px;
+	padding: 10px 20px;
+	background-color: white;
+	margin-bottom: 10px;
 }
