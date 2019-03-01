@@ -29,7 +29,6 @@ class App extends Component {
 		axios
 			.post('http://localhost:3333/smurfs', newSmurf)
 			.then((response) => {
-				console.log(response.data);
 				this.setState({ smurfs: response.data });
 			})
 			.catch((err) => console.log(err));
